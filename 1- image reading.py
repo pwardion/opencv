@@ -5,3 +5,5 @@ img = cv.imread("C:\\Users\\berka\\OneDrive\\Desktop\\uzuminyo.jpeg") #resmin ka
 cv.imshow('title', img) #resim title başlığıyla gösterildi
 
 cv.waitKey() #herhangi bir tuşa basılana kadar resmin kapatılmaması söylendi
+
+cv.destroyAllWindows() #tuşa basılınca tüm pencerelerin kapanması söylendi
