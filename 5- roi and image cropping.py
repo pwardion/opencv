@@ -1,4 +1,4 @@
-#ROI (Region of Interest)
+#ROI (Region of Interest) and image cropiing
 #roi fonksiyonu ile ilgilendiğimiz alanın piksel numaralarını öğreniyoruz
 
 
@@ -7,6 +7,7 @@ import cv2 as cv
 img = cv.imread("C:\\Users\\berka\\OneDrive\\Desktop\\cr7.jpg")
 
 """
+ROI
 x,y,w,h = cv.selectROI(img)
 print(x,y,w,h)
 selected = img[y:y+w,x,x+h]
