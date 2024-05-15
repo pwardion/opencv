@@ -4,7 +4,9 @@ image1 = cv2.imread("C:\\Users\\berka\\OneDrive\\Desktop\\cr7.jpg") #resmin kayn
 
 img = cv2.cvtColor(image1, cv2.COLOR_BGR2GRAY) #resmi griye çevirdik (zorunlu)
 
-ret, thresh1 = cv2.threshold(img, 120, 255, cv2.THRESH_BINARY)
+ret, thresh1 = cv2.threshold(img, 120, 255, cv2.THRESH_BINARY) #src, eşik piksel değeri, eşik piksel
+                                                                             #değerini aşan pikselin değeri, hangi
+                                                                             #tekniğin uygulanacağı
 
 ret, thresh2 = cv2.threshold(img, 120, 255, cv2.THRESH_BINARY_INV)
 
