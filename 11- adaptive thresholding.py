@@ -6,6 +6,8 @@ image1 = cv2.imread("C:\\Users\\berka\\OneDrive\\Desktop\\resim.jpg",0) #resim o
 
 #blockSize arttıkça detay artar
 #C arttıkça resim beyazlaşır
+#maxVal = piksel değerinin eşik değerinden büyük olması durumunda verilecek değeri temsil eden değişken.
+
 #blockSize çift sayı olamaz!!!!
 
 #cv2.adaptiveThreshold(source, maxVal, cv2.ADAPTIVE_THRESH_MEAN_C,
