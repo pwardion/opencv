@@ -1,4 +1,4 @@
-#colour detection on live video
+#colour filtering on live video
 
 import cv2 as cv
 cap = cv.VideoCapture(0)
