@@ -1,4 +1,4 @@
-#colour detection on image
+#colour filtering on image
 
 import cv2 as cv
 img = cv.imread("C:\\Users\\berka\\OneDrive\\Desktop\\cr.jpg")
